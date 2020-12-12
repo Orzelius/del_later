@@ -1,5 +1,12 @@
 function Products() {
-  return <h2>I am the Products page</h2>;
+  return (
+    <div className="products">
+      <h1>Products</h1>
+      <h1>Products</h1>
+      <h1>Products</h1>
+      <h1>Products</h1>
+    </div>
+  );
 }
 
 export default Products;

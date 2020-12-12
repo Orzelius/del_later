@@ -1,9 +1,10 @@
+import logo from "../../Public/img/logo1_png.png";
 function Header() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <a href="#">
-          <img src="./img/logo1_png.png" height="30px" alt="" />
+          <img src={logo} height="30px" alt="" />
         </a>
         <ul className="nav_list">
           <li className="nav_item">
