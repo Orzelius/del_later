@@ -1,0 +1,11 @@
+@import './Colors.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: $bg-color;
+}
